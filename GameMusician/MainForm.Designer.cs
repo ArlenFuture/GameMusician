@@ -110,9 +110,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(25, 92);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 45);
+            this.label1.Size = new System.Drawing.Size(190, 45);
             this.label1.TabIndex = 4;
-            this.label1.Text = "1. Selet midi file.\r\n2. Go to identityV.\r\n3. Press Ctrl+F5 to Start and Pause.";
+            this.label1.Text = "1. Selet midi file.\r\n2. Go to identityV.\r\n3. Press Ctrl+F5 to Start or Pause.";
             // 
             // MainForm
             // 
