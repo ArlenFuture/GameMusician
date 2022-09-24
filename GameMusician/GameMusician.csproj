@@ -6,6 +6,17 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PackageReleaseNotes>
+</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>0.1.0</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InputManager" Version="1.0.0" />
+    <PackageReference Include="Melanchall.DryWetMidi" Version="6.1.2" />
+  </ItemGroup>
 
 </Project>
