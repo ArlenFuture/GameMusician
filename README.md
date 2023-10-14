@@ -45,3 +45,6 @@ Switch playing songs quickly have some error.
     * Initial Release
         * Midi Import.
         * Play automatically in IdentityV.
+* 0.2.0
+    * New Featue
+       * Black keys Support. 
