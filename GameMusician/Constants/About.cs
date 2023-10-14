@@ -10,7 +10,7 @@ namespace GameMusician.Constants
     {
         public const string Text =
             @"
-            Vesion 0.1.0
+            Vesion 0.2.0
             Hi,I'm Arlen. I'm glad to see you use this app.
             Report Issue:
             Facebook:https://www.facebook.com/ArlenFuture

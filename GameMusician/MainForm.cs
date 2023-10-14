@@ -150,12 +150,70 @@ namespace GameMusician
                         case Melanchall.DryWetMidi.MusicTheory.NoteName.B:
                             Keyboard.KeyDown(Keys.U);
                             break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.CSharp:
+                            Keyboard.KeyDown(Keys.D2);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.DSharp:
+                            Keyboard.KeyDown(Keys.D3);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.FSharp:
+                            Keyboard.KeyDown(Keys.D5);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.GSharp:
+                            Keyboard.KeyDown(Keys.D6);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.ASharp:
+                            Keyboard.KeyDown(Keys.D7);
+                            break;
                         default:
                             break;
                     }
                     break;
                 //低音
                 case < 4:
+                    switch (nowNote.NoteName)
+                    {
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.C:
+                            Keyboard.KeyDown(Keys.Oemcomma);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.D:
+                            Keyboard.KeyDown(Keys.OemPeriod);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.E:
+                            Keyboard.KeyDown(Keys.OemQuotes);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.F:
+                            Keyboard.KeyDown(Keys.I);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.G:
+                            Keyboard.KeyDown(Keys.O);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.A:
+                            Keyboard.KeyDown(Keys.P);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.B:
+                            Keyboard.KeyDown(Keys.OemOpenBrackets);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.CSharp:
+                            Keyboard.KeyDown(Keys.L);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.DSharp:
+                            Keyboard.KeyDown(Keys.OemSemicolon);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.FSharp:
+                            Keyboard.KeyDown(Keys.D9);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.GSharp:
+                            Keyboard.KeyDown(Keys.D0);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.ASharp:
+                            Keyboard.KeyDown(Keys.OemMinus);
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                case 4:
                     switch (nowNote.NoteName)
                     {
                         case Melanchall.DryWetMidi.MusicTheory.NoteName.C:
@@ -179,32 +237,19 @@ namespace GameMusician
                         case Melanchall.DryWetMidi.MusicTheory.NoteName.B:
                             Keyboard.KeyDown(Keys.M);
                             break;
-                        default:
-                            break;
-                    }
-                    break;
-                case 4:
-                    switch (nowNote.NoteName)
-                    {
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.C:
-                            Keyboard.KeyDown(Keys.A);
-                            break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.D:
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.CSharp:
                             Keyboard.KeyDown(Keys.S);
                             break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.E:
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.DSharp:
                             Keyboard.KeyDown(Keys.D);
                             break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.F:
-                            Keyboard.KeyDown(Keys.F);
-                            break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.G:
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.FSharp:
                             Keyboard.KeyDown(Keys.G);
                             break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.A:
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.GSharp:
                             Keyboard.KeyDown(Keys.H);
                             break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.B:
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.ASharp:
                             Keyboard.KeyDown(Keys.J);
                             break;
                         default:
@@ -246,12 +291,70 @@ namespace GameMusician
                         case Melanchall.DryWetMidi.MusicTheory.NoteName.B:
                             Keyboard.KeyUp(Keys.U);
                             break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.CSharp:
+                            Keyboard.KeyUp(Keys.D2);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.DSharp:
+                            Keyboard.KeyUp(Keys.D3);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.FSharp:
+                            Keyboard.KeyUp(Keys.D5);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.GSharp:
+                            Keyboard.KeyUp(Keys.D6);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.ASharp:
+                            Keyboard.KeyUp(Keys.D7);
+                            break;
                         default:
                             break;
                     }
                     break;
                 //低音
                 case < 4:
+                    switch (nowNote.NoteName)
+                    {
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.C:
+                            Keyboard.KeyUp(Keys.Oemcomma);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.D:
+                            Keyboard.KeyUp(Keys.OemPeriod);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.E:
+                            Keyboard.KeyUp(Keys.OemQuotes);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.F:
+                            Keyboard.KeyUp(Keys.I);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.G:
+                            Keyboard.KeyUp(Keys.O);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.A:
+                            Keyboard.KeyUp(Keys.P);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.B:
+                            Keyboard.KeyUp(Keys.OemOpenBrackets);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.CSharp:
+                            Keyboard.KeyUp(Keys.L);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.DSharp:
+                            Keyboard.KeyUp(Keys.OemSemicolon);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.FSharp:
+                            Keyboard.KeyUp(Keys.D9);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.GSharp:
+                            Keyboard.KeyUp(Keys.D0);
+                            break;
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.ASharp:
+                            Keyboard.KeyUp(Keys.OemMinus);
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                case 4:
                     switch (nowNote.NoteName)
                     {
                         case Melanchall.DryWetMidi.MusicTheory.NoteName.C:
@@ -275,32 +378,19 @@ namespace GameMusician
                         case Melanchall.DryWetMidi.MusicTheory.NoteName.B:
                             Keyboard.KeyUp(Keys.M);
                             break;
-                        default:
-                            break;
-                    }
-                    break;
-                case 4:
-                    switch (nowNote.NoteName)
-                    {
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.C:
-                            Keyboard.KeyUp(Keys.A);
-                            break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.D:
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.CSharp:
                             Keyboard.KeyUp(Keys.S);
                             break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.E:
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.DSharp:
                             Keyboard.KeyUp(Keys.D);
                             break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.F:
-                            Keyboard.KeyUp(Keys.F);
-                            break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.G:
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.FSharp:
                             Keyboard.KeyUp(Keys.G);
                             break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.A:
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.GSharp:
                             Keyboard.KeyUp(Keys.H);
                             break;
-                        case Melanchall.DryWetMidi.MusicTheory.NoteName.B:
+                        case Melanchall.DryWetMidi.MusicTheory.NoteName.ASharp:
                             Keyboard.KeyUp(Keys.J);
                             break;
                         default:
