@@ -180,7 +180,7 @@ namespace GameMusician
                             Keyboard.KeyDown(Keys.OemPeriod);
                             break;
                         case Melanchall.DryWetMidi.MusicTheory.NoteName.E:
-                            Keyboard.KeyDown(Keys.OemQuotes);
+                            Keyboard.KeyDown(Keys.OemQuestion);
                             break;
                         case Melanchall.DryWetMidi.MusicTheory.NoteName.F:
                             Keyboard.KeyDown(Keys.I);
@@ -321,7 +321,7 @@ namespace GameMusician
                             Keyboard.KeyUp(Keys.OemPeriod);
                             break;
                         case Melanchall.DryWetMidi.MusicTheory.NoteName.E:
-                            Keyboard.KeyUp(Keys.OemQuotes);
+                            Keyboard.KeyUp(Keys.OemQuestion);
                             break;
                         case Melanchall.DryWetMidi.MusicTheory.NoteName.F:
                             Keyboard.KeyUp(Keys.I);

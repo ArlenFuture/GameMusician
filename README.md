@@ -48,3 +48,6 @@ Switch playing songs quickly have some error.
 * 0.2.0
     * New Featue
        * Black keys Support. 
+* 0.3.0
+    * Fixed Bug
+       * "/" Keys can't trigger. 
